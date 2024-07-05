@@ -2,11 +2,11 @@
 #error "Core Selection is wrong"
 #endif
 
-#include "include.h"
+#include "src/include.h"
 
 // Instantiate
-ModeWait modeWait();
-ModeSstv modeSstv();
+ModeWait modeWait = ModeWait();
+ModeSstv modeSstv = ModeSstv();
 ModeManager modeManager(&modeWait, &modeSstv);
 
 void setup() {

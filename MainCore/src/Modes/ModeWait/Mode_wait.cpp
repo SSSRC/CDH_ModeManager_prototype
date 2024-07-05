@@ -1,7 +1,7 @@
 #include "Mode_wait.h"
 
 // コンストラクタ
-ModeWait::ModeWait() : {}
+ModeWait::ModeWait() {}
 
 void ModeWait::enter() {
     // モード1に遷移時の初期化処理

@@ -1,7 +1,7 @@
 #include "Mode_sstv.h"
 
 // コンストラクタ
-ModeSstv::ModeSstv() : {}
+ModeSstv::ModeSstv() {}
 
 void ModeSstv::enter() {
     // SSTVモードに遷移時の初期化処理
