@@ -1,7 +1,7 @@
 #ifndef MODE_WAIT_H
 #define MODE_WAIT_H
 
-#include "Mode.h"
+#include "../Mode.h"
 
 class ModeWait : public Mode {
    public:

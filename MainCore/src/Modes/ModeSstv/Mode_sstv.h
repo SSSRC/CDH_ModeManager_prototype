@@ -1,7 +1,7 @@
 #ifndef MODE_SSTV_H
 #define MODE_SSTV_H
 
-#include "Mode.h"
+#include "../Mode.h"
 
 class ModeSstv : public Mode {
    public:
